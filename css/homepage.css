@@ -1,0 +1,207 @@
+section {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.promo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 4rem;
+}
+
+.promo-item {
+    background-color: transparent;
+}
+
+.promo-item>img {
+    display: flex;
+    width: 1200px;
+    padding-left: 2rem;
+    border-radius: 50px 0;
+    display: flex;
+    align-items: center;
+}
+   
+.slick-prev.slick-arrow{
+    margin: 0 -1rem;
+}
+
+.slick-arrow:before{
+    color: #ECB28B;
+    font-size: 2rem;
+}
+
+.landing, .aboutus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    padding: 0.5rem;
+    color: white;
+    margin-left: 5rem;
+}
+
+.landing>img {
+    width: 50%;
+    height: 70%;
+    background-color: transparent;
+    margin-left: 5rem;
+}
+
+.aboutus>img {
+    width: fit-content;
+    height: 70%;
+    background-color: transparent;
+    padding: 5rem;
+} 
+
+.landing-content {
+    width: 50%;
+    margin-left: 5rem;
+    align-content: center;
+}
+
+.aboutus-content{
+    width: 50%;
+    padding: 2.5rem 5rem;
+    align-content: center;
+    background-color: #38383A;
+
+}
+
+.landing-content>p:first-child, .aboutus-content>p:first-child{
+    font: 3.5rem cocoreg;
+    margin: 0;
+    font-weight: bold;
+}
+
+.landing-content>p:nth-child(2) {
+    font: 2rem cocoreg;
+}
+
+.aboutus-content>p:last-child {
+    font: 1.5rem cocoreg;
+    font-weight: lighter;
+}
+.landing-content>a{
+    color: white;
+    text-decoration: none;
+}
+
+.landing-content-button{
+    background-color: #b2cc65;
+    border-radius: 50px;
+    width: fit-content;
+    font: 2rem cocoreg;
+    padding: 1rem 2rem;
+    margin: 2rem 0;
+    color: white;
+    
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.product>h1{
+    font: 3.5rem GothamBold;
+}
+
+.product-carousel{
+    width: 50%;
+}
+
+.product-carousel-item{
+    background-color: #E7D4C9;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+}
+
+.product-carousel-item-profile{
+    display: flex;
+    align-items: center;
+}
+
+.product-carousel-item-profile>img{
+    width: 5rem;
+}
+
+.product-carousel-item-profile>p{
+    font: 1.5rem GothamBold;
+    padding: 0 1rem;
+}
+
+.product-carousel-item-text{
+    margin: 1rem 0;
+}
+
+.product-carousel-item-text>p:first-child{
+    font: 1.2rem GothamBold;
+    margin: 0;
+}
+
+.product-carousel-item-text>p:nth-child(2){
+    font: 1.2rem GothamLight;
+    margin: 0;
+}
+
+footer{
+    background-color: #262627;
+    padding: 2rem 5rem;
+}
+
+footer>span{
+    color: white;
+    background-color: #262627;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    background-color: #262627;
+}
+
+.footer-content>span:first-child{
+    font: 3rem GothamBold;
+    color: white;
+    background-color: #262627;
+}
+
+.footer-content>span:nth-child(2){
+    font: GothamLight;
+    text-align: right;
+    color: white;
+    background-color: #262627;
+}
+
+.footer-content>span:nth-child(2)>p:first-child{
+    font: 1.5rem GothamBold;
+    background-color: #262627;
+}
+
+.footer-content>span:nth-child(2)>p>a{
+    text-decoration: none;
+    color: white;
+    background-color: #262627;
+}
+
+.footer-content>span:nth-child(2)>p>a:hover{
+    color: #38383A;
+}
+
+.footer-content>span:nth-child(2)>p:nth-child(2){
+    font: 1rem GothamBold;
+    background-color: #262627;
+}
+
+.footer-content>span:nth-child(2)>p:nth-child(3){
+    font: 1rem GothamBold;
+    background-color: #262627;
+}

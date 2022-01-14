@@ -1,0 +1,40 @@
+.product-detail {
+	display: flex;
+	margin: 40px;
+	position: relative;
+	text-align: left;
+	justify-content: center;
+}
+
+.container-fluid {
+	font: 1rem cocoreg;
+	display: flex;
+	justify-content: left;
+}
+
+.product-detail-top {
+	background-color: #fff;
+}
+
+.align-item {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+.col-md4 {
+	background-color: blue;
+	border-radius: 0 20px 0 20px;
+}
+
+.product-slider-single {
+	width: 50%;
+	border-style:  none;
+}
+
+.product-slider-single>img {
+	vertical-align: middle;
+	border-style: none;
+	width: 50px;
+	height: 60px;
+}

@@ -1,0 +1,66 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.Login, .Register{
+    font-family: "cocoreg";
+    min-height: 70vh;
+    background-color: #38383A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2rem 0;
+    font-weight: bold;
+    color: white;
+}
+
+.Box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #505050;
+    border-radius: 25px;
+    padding: 2rem 8rem;
+    text-align: center;
+}
+
+.Box>h1{
+    margin: 0;
+    margin-bottom: 1rem;
+    font-size: 35px;
+}
+
+.Box>p{
+    margin: 1rem 0;
+}
+
+.Box>button{
+    color: white;
+    background-color: #b2cc65;
+    border-radius: 50px;
+    font: 1.5rem cocoreg;
+    border: none;
+    padding: .5rem 2rem;
+    align-self: center;
+    margin-top: 1rem;
+}
+
+.Box>p>a{
+    font-family: "cocoreg";
+    color: #b2cc65;
+    text-decoration: none;
+}
+
+.Box>form{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+
+.Box>form>input{
+    height: 1.5rem;
+    margin: .5rem 0;
+    padding: .3rem .5rem;
+}
